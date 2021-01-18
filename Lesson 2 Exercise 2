@@ -1,0 +1,7 @@
+number = input('Enter a number:')
+convert_number = int(number)
+remainder = convert_number%2
+if remainder == 0 and convert_number > 100:
+    print('The number is even and greater than 100')
+else:
+    print('The number is not even or less than 100')

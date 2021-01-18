@@ -1,0 +1,4 @@
+username = input('Your name:')
+if username == "Joe": print('Your name is Joe')
+else:
+    print('your name is '+username)
